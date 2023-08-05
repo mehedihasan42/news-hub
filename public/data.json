@@ -1,0 +1,231 @@
+[
+    {
+      "name": "Alicia Ramirez",
+      "image": "https://media.istockphoto.com/id/1414981473/photo/futuristic-flight-through-a-digital-line-landscape-blue-dust-particle-abstract-background-3d.jpg?s=2048x2048&w=is&k=20&c=lz80IUOYK7JV0hBraat5xBjbOLxpbtnE5fpVAhkY5uw=",
+      "category": "Technology",
+      "detail": "Alicia is a computer engineer and innovator. She has developed groundbreaking virtual reality applications that have revolutionized training methods for various industries."
+    },
+    {
+      "name": "Michael Chang",
+      "image": "https://media.istockphoto.com/id/1420057741/photo/victory-is-ours.jpg?s=2048x2048&w=is&k=20&c=RzUru2kl-i8dxWmez98xu-kZ92BYE0JOaAZMywee3T0=",
+      "category": "Sports",
+      "detail": "Michael is a former professional tennis player and Grand Slam champion. He now coaches young talents and shares his expertise to nurture the next generation of players."
+    },
+    {
+      "name": "Sophia Miller",
+      "image": "https://media.istockphoto.com/id/1440286371/photo/beautiful-low-angle-shot-of-united-states-capitol-under-the-breathtaking-cloudy-sky.jpg?s=2048x2048&w=is&k=20&c=zkYwCnl9nb24BbRBd3FojSj1otMLGvSzxkV2aHBP25M=",
+      "category": "Politics",
+      "detail": "Sophia is a congresswoman with a strong focus on education and women's rights. She actively advocates for policies that empower women and promote equal opportunities."
+    },
+    {
+      "name": "Dr. Benjamin Turner",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=499&q=80",
+      "category": "Health",
+      "detail": "Dr. Turner is a renowned neurologist specializing in brain disorders. His research has contributed to better treatments for conditions like Alzheimer's and Parkinson's disease."
+    },
+    {
+      "name": "Samuel Lee",
+      "image": "https://media.istockphoto.com/id/1439425791/photo/digital-technology-software-development-concept-coding-programmer-working-on-laptop-with.jpg?s=2048x2048&w=is&k=20&c=-jD9mQ8BUfRY9qsMECFTAp-xNjbEuCOOLi2u38SqmdA=",
+      "category": "Technology",
+      "detail": "Samuel is a tech entrepreneur who co-founded a successful e-commerce platform. His company has disrupted the online retail space with its innovative approach to customer engagement."
+    },
+    {
+      "name": "Olivia Johnson",
+      "image": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "category": "Sports",
+      "detail": "Olivia is a professional golfer with multiple LPGA titles under her belt. She is known for her precise swing and mental toughness on the golf course."
+    },
+    {
+      "name": "Robert Thompson",
+      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "category": "Politics",
+      "detail": "Robert is a senator known for his bipartisan approach to legislation. He strives to find common ground and work across party lines to address important issues."
+    },
+    {
+      "name": "Dr. Emily Roberts",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=499&q=80",
+      "category": "Health",
+      "detail": "Dr. Roberts is a respected pediatrician who has dedicated her career to improving child healthcare. She advocates for early prevention and supports vaccination initiatives."
+    },
+    {
+      "name": "Jason Chen",
+      "image": "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "category": "Technology",
+      "detail": "Jason is a software developer who has contributed to open-source projects that have democratized access to cutting-edge technologies for developers worldwide."
+    },
+    {
+      "name": "Maria Garcia",
+      "image": "https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "category": "Sports",
+      "detail": "Maria is a world-class figure skater and Winter Olympics gold medalist. She continues to inspire young athletes with her graceful performances."
+    },
+    {
+      "name": "Anthony Walker",
+      "image": "https://images.unsplash.com/photo-1607778417094-1fef13315e6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=773&q=80",
+      "category": "Politics",
+      "detail": "Anthony is a mayor with a vision for sustainable urban development. He emphasizes green infrastructure and public transportation to create a greener city."
+    },
+    {
+      "name": "Dr. Samantha Adams",
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "category": "Health",
+      "detail": "Dr. Adams is a leading researcher in immunology. Her work on vaccine development has been crucial in combating infectious diseases and saving lives."
+    },
+    {
+      "name": "Kevin Patel",
+      "image": "https://media.istockphoto.com/id/1435220822/photo/african-american-software-developer.jpg?s=2048x2048&w=is&k=20&c=d1UoAVikBSCBACAx6VowheFeZQbmJymYjqQKQeK48jI=",
+      "category": "Technology",
+      "detail": "Kevin is a tech blogger and influencer. He shares insights about the latest gadgets and emerging technologies, making complex topics accessible to the public."
+    },
+    {
+      "name": "Alex Morgan",
+      "image": "https://media.istockphoto.com/id/1399212293/photo/physical-education-class-and-sport-training-in-high-school.jpg?s=2048x2048&w=is&k=20&c=nM-x7ma0eh9RUIFyn81875ZpN4CSVl8z1mpwX4sf7Ek=",
+      "category": "Sports",
+      "detail": "Alex is a professional soccer player and Olympic gold medalist. She is a role model for aspiring young athletes and an advocate for gender equality in sports."
+    },
+    {
+      "name": "Catherine Mitchell",
+      "image": "https://media.istockphoto.com/id/1385767484/photo/mature-man-leading-a-demonstration-using-a-megaphone.jpg?s=2048x2048&w=is&k=20&c=YoRrhcroL21sKn4UXC4KycppVSk48QC1V_0j6Et9E68=",
+      "category": "Politics",
+      "detail": "Catherine is a diplomatic envoy who represents her country on the global stage. She focuses on fostering international cooperation and resolving conflicts peacefully."
+    },
+    {
+      "name": "Dr. James Wilson",
+      "image": "https://images.unsplash.com/photo-1558554142-0b016c857381?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "category": "Health",
+      "detail": "Dr. Wilson is a leading expert in public health policy. He advises governments on effective healthcare strategies and crisis management during pandemics."
+    },
+    {
+      "name": "Megan Turner",
+      "image": "https://media.istockphoto.com/id/1452604857/photo/businessman-touching-the-brain-working-of-artificial-intelligence-automation-predictive.jpg?s=2048x2048&w=is&k=20&c=-dkoxqirWcLDhkIjVgkLfRXdNHqCJdPKswM7tkjTcN0=",
+      "category": "Technology",
+      "detail": "Megan is a tech journalist who covers the latest trends in the industry. She reports on the impact of technology on society and promotes digital literacy."
+    },
+    {
+      "name": "Michael Johnson",
+      "image": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1307&q=80",
+      "category": "Sports",
+      "detail": "Michael is a retired sprinter and track legend. He holds multiple world records and is widely regarded as one of the fastest men in history."
+    },
+    {
+      "name": "Elizabeth Foster",
+      "image": "https://media.istockphoto.com/id/1406310396/photo/portrait-of-multiracial-african-american-black-businesswoman-using-internet-with-digital.jpg?s=2048x2048&w=is&k=20&c=E0tPCEYiw0QO48ExdfQyzTQk5Euh10uL6DYRrtswF08=",
+      "category": "Politics",
+      "detail": "Elizabeth is a human rights activist and lawyer. She fights for justice and equality for marginalized communities around the world."
+    },
+    {
+      "name": "Dr. Andrew Parker",
+      "image": "https://images.unsplash.com/photo-1549890762-0a3f8933bc76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1268&q=80",
+      "category": "Health",
+      "detail": "Dr. Parker is a geneticist who researches rare diseases. His discoveries have paved the way for personalized medicine and gene therapies."
+    },
+    {
+      "name": "Stephanie Lee",
+      "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "category": "Technology",
+      "detail": "Stephanie is a tech entrepreneur who founded a successful biotech startup. Her company develops innovative solutions for sustainable agriculture and food security."
+    },
+    {
+      "name": "Chris Anderson",
+      "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "category": "Sports",
+      "detail": "Chris is a professional basketball player known for his incredible dunking abilities and all-around skills on the court."
+    },
+    {
+      "name": "Robert Johnson",
+      "image": "https://images.unsplash.com/photo-1541726260-e6b6a6a08b27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=859&q=80",
+      "category": "Politics",
+      "detail": "Robert is a senator who advocates for social welfare programs and economic policies that support working-class families."
+    },
+    {
+      "name": "Dr. Laura Collins",
+      "image": "https://images.unsplash.com/photo-1500904156668-758cff89dcff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "category": "Health",
+      "detail": "Dr. Collins is a leading expert in infectious diseases. She has played a critical role in developing vaccines against emerging viral threats."
+    },
+    {
+      "name": "David Baker",
+      "image": "https://plus.unsplash.com/premium_photo-1679177183954-e270f58c1c05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "category": "Technology",
+      "detail": "David is a robotics engineer and innovator. He designs and builds advanced robots that have applications in industries like healthcare and manufacturing."
+    },
+    {
+      "name": "Jessica Roberts",
+      "image": "https://plus.unsplash.com/premium_photo-1679177183954-e270f58c1c05?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "category": "Sports",
+      "detail": "Jessica is a professional surfer and has won multiple world championships. She is an advocate for marine conservation and protecting the oceans."
+    },
+    {
+      "name": "Sarah Walker",
+      "image": "https://images.unsplash.com/photo-1541726260-e6b6a6a08b27?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=859&q=80",
+      "category": "Politics",
+      "detail": "Sarah is a member of parliament who focuses on economic development and job creation in her district."
+    },
+    {
+      "name": "Dr. Michael Turner",
+      "image": "https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "category": "Health",
+      "detail": "Dr. Turner is a pioneering researcher in medical imaging. His work has led to advancements in diagnostic tools, helping doctors detect diseases more accurately."
+    },
+    {
+      "name": "Brian Mitchell",
+      "image": "https://media.istockphoto.com/id/1401980646/photo/3d-rendered-classic-sculpture-metaverse-avatar-with-network-of-low-poly-glowing-purple-lines.jpg?s=2048x2048&w=is&k=20&c=BuMqUMizCQNZhgjfjWg5SReoapADCDH39sWDqF9xUHg=",
+      "category": "Technology",
+      "detail": "Brian is a tech enthusiast and software developer. He actively contributes to open-source projects and promotes collaboration in the tech community."
+    },
+    {
+      "name": "Emma Johnson",
+      "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=890&q=80",
+      "category": "Sports",
+      "detail": "Emma is a professional gymnast and Olympic medalist. She is known for her artistic routines and dedication to the sport."
+    },
+    {
+      "name": "William Thompson",
+      "image": "Image_Link_43.jpg",
+      "category": "Politics",
+      "detail": "William is a congressman with a strong focus on climate change and environmental conservation. He aims to promote renewable energy and reduce carbon emissions."
+    },
+    {
+      "name": "Dr. Sophia Davis",
+      "image": "Image_Link_44.jpg",
+      "category": "Health",
+      "detail": "Dr. Davis is a leading researcher in cancer biology. Her work has contributed to breakthrough treatments and improved outcomes for cancer patients."
+    },
+    {
+      "name": "Laura Turner",
+      "image": "Image_Link_45.jpg",
+      "category": "Technology",
+      "detail": "Laura is a tech entrepreneur who co-founded a startup specializing in green energy solutions. Her company aims to make renewable energy accessible to all."
+    },
+    {
+      "name": "Daniel Harris",
+      "image": "Image_Link_46.jpg",
+      "category": "Sports",
+      "detail": "Daniel is a professional baseball player and has set several records for home runs in a single season."
+    },
+    {
+      "name": "Christine Williams",
+      "image": "Image_Link_47.jpg",
+      "category": "Politics",
+      "detail": "Christine is a senator who advocates for healthcare reform and affordable access to quality medical services for all citizens."
+    },
+    {
+      "name": "Dr. Richard Turner",
+      "image": "Image_Link_48.jpg",
+      "category": "Health",
+      "detail": "Dr. Turner is a leading psychiatrist specializing in mental health. He works to reduce the stigma surrounding mental illnesses and promote mental well-being."
+    },
+    {
+      "name": "Jennifer Parker",
+      "image": "Image_Link_49.jpg",
+      "category": "Technology",
+      "detail": "Jennifer is a tech journalist and researcher, focusing on the ethical implications of artificial intelligence and automation in society."
+    },
+    {
+      "name": "James Wilson",
+      "image": "Image_Link_50.jpg",
+      "category": "Sports",
+      "detail": "James is a professional cyclist and has competed in multiple Tour de France races. He is an advocate for cycling safety and sustainable transportation."
+    }
+  ]
+  
