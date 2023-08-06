@@ -4,11 +4,11 @@ import { Outlet } from 'react-router-dom';
 
 const Home = () => {
     return (
-        <div className='container lg:flex w-11/12 mx-auto'>
-            <div className='w-3/12'>
+        <div className='lg:flex w-11/12 mx-auto'>
+            <div className='lg:w-3/12'>
                 <SideNav></SideNav>
             </div>
-            <div className='w-8/12'>
+            <div className='lg:w-8/12'>
               <Outlet></Outlet>
             </div>
         </div>

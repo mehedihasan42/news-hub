@@ -9,6 +9,7 @@ import NewsLayout from '../Layouts/NewsLayout';
 import News from '../Pages/News/News';
 import About from '../Pages/Components/About/About';
 import SaveNews from '../Pages/Components/SaveNews/SaveNews';
+import PrivetRoute from './PrivetRoute';
 
 export const router = createBrowserRouter([
   {
@@ -23,7 +24,7 @@ export const router = createBrowserRouter([
           {
             path: "/category/:id",
             element: <Category></Category>,
-            loader:({params})=>fetch(`http://localhost:5000/news/${params.id}`)
+            loader:({params})=>fetch(`https://news-hub-server-beta.vercel.app/news/${params.id}`)
           }
         ]
       },
@@ -33,7 +34,7 @@ export const router = createBrowserRouter([
       },
       {
         path:'/saveNews',
-        element:<SaveNews></SaveNews>
+        element:<PrivetRoute><SaveNews></SaveNews></PrivetRoute>
       },
       {
         path: "/news",

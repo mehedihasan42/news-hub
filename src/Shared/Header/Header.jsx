@@ -16,12 +16,12 @@ const Header = () => {
       }, []);
     return (
        <>
-        <div className='text-center mt-4 space-y-1'>
+        <div className='text-center mt-4 space-y-1 mb-4'>
             <h1 className='text-4xl font-bold italic'>The Daily News</h1>
             <p className='text-gray-500'>Your Trusted News Source</p>
-            <p className=''>{currentTime}</p>
+            <p>{currentTime}</p>
         </div>
-        <div className='flex w-10/12 mx-auto bg-red-300'>
+        <div className='flex w-10/12 mx-auto bg-red-300 mt-4'>
         <button className="btn btn-error">Latest</button>
         <Marquee
         className='text-black'

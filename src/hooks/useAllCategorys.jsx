@@ -5,7 +5,7 @@ const useAllCategoris = () => {
     const {data:categoris =[]} = useQuery({
         queryKey: ['category'],
         queryFn: async () => {
-          const res = await fetch('http://localhost:5000/category')
+          const res = await fetch('https://news-hub-server-beta.vercel.app/category')
           return res.json();
         },
       })
