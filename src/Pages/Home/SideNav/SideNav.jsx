@@ -1,6 +1,7 @@
 import React from 'react';
 import useAllCategoris from '../../../hooks/useAllCategorys';
-import { Link } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
+import './SideNav.css'
 
 const SideNav = () => {
     const [categoris] = useAllCategoris()
@@ -14,7 +15,7 @@ const SideNav = () => {
         <div className='space-y-2'>
             {
                 categoris.map(category=><p key={category._id}>
-                    <Link to={`/category/${category.id}`}>{category.name}</Link>
+                    <NavLink to={`/category/${category.id}`}>{category.name}</NavLink>
                 </p>)
             }
         </div>

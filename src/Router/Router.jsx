@@ -7,6 +7,8 @@ import Home from '../Pages/Home/Home/Home';
 import Category from '../Pages/Home/Category/Category';
 import NewsLayout from '../Layouts/NewsLayout';
 import News from '../Pages/News/News';
+import About from '../Pages/Components/About/About';
+import SaveNews from '../Pages/Components/SaveNews/SaveNews';
 
 export const router = createBrowserRouter([
   {
@@ -25,7 +27,14 @@ export const router = createBrowserRouter([
           }
         ]
       },
-
+      {
+        path:'/about',
+        element:<About></About>
+      },
+      {
+        path:'/saveNews',
+        element:<SaveNews></SaveNews>
+      },
       {
         path: "/news",
         element: <NewsLayout></NewsLayout>,
@@ -35,7 +44,8 @@ export const router = createBrowserRouter([
             element: <News></News>
           }
         ]
-      }
+      },
+    
       
     ]
   },
