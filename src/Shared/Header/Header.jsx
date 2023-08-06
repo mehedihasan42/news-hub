@@ -1,5 +1,7 @@
 import moment from 'moment/moment';
 import React, { useEffect, useState } from 'react';
+import Marquee from 'react-fast-marquee';
+import NavBar from '../NavBar/NavBar';
 
 const Header = () => {
     const [currentTime, setCurrentTime] = useState(moment().format('MMMM Do YYYY, h:mm:ss a'));
@@ -16,9 +18,16 @@ const Header = () => {
        <>
         <div className='text-center mt-4 space-y-1'>
             <h1 className='text-4xl font-bold italic'>The Daily News</h1>
-            <p className='text-gray-500'>Journalism Without Fear</p>
+            <p className='text-gray-500'>Your Trusted News Source</p>
             <p className=''>{currentTime}</p>
         </div>
+        <div className='flex w-10/12 mx-auto bg-red-300'>
+        <button className="btn btn-error">Latest</button>
+        <Marquee
+        className='text-black'
+        speed={70}>With the promotion of educator Joyce Yang to program manager, News Decoder prepares to expand its educational opportunities and global reach.</Marquee>
+        </div>
+        <NavBar></NavBar>
        </>
     );
 };

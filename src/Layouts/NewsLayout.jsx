@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Details = () => {
+const NewsLayout = () => {
     return (
         <div>
-            
+            News Layout
         </div>
     );
 };
 
-export default Details;
+export default NewsLayout;
