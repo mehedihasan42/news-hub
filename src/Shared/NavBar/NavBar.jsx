@@ -18,7 +18,7 @@ const NavBar = () => {
       isAdmin ? <>
         <li><NavLink to={`category/0`}>Home</NavLink></li>
         <li><NavLink to="/about">About Us</NavLink></li>
-        <li><NavLink to="/saveNews">Upload News</NavLink></li>
+        <li><NavLink to="/uploadNews">Upload News</NavLink></li>
       </> : <>
         <li><NavLink to={`category/0`}>Home</NavLink></li>
         <li><NavLink to="/about">About Us</NavLink></li>
