@@ -10,6 +10,7 @@ import News from '../Pages/News/News';
 import About from '../Pages/Components/About/About';
 import SaveNews from '../Pages/Components/SaveNews/SaveNews';
 import PrivetRoute from './PrivetRoute';
+import UploadNews from '../Pages/Components/UploadNews/UploadNews';
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
       {
         path:'/saveNews',
         element:<PrivetRoute><SaveNews></SaveNews></PrivetRoute>
+      },
+      {
+        path:'uploadNews',
+        element:<UploadNews></UploadNews>
       },
       {
         path: "/news",
