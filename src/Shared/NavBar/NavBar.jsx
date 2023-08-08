@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
 import useAdmin from '../../hooks/useAdmin';
 import useAllUsers from '../../hooks/useAllUsers';
+import useSaveNews from '../../hooks/useSaveNews';
 
 const NavBar = () => {
 
@@ -14,7 +15,7 @@ const NavBar = () => {
   }
 
   const [isAdmin,adminLoader] = useAdmin()
-  console.log(isAdmin)
+
   const navLinks = <>
 
     {

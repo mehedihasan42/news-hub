@@ -6,7 +6,7 @@ import useAllUsers from '../../../hooks/useAllUsers';
 
 const AllUsers = () => {
   const {user} = useContext(AuthContext)
-   const [users] = useAllUsers()
+   const [users,,refetch] = useAllUsers()
  
     const handleDelete = user =>{
         fetch(`https://news-hub-server-beta.vercel.app/users/${user._id}`,{
@@ -17,6 +17,7 @@ const AllUsers = () => {
             console.log(result)
             refetch()
             if (result.deletedCount === 1) {
+              refetch()
                 Swal.fire({
                     title: 'User deleted successful',
                     showClass: {
@@ -38,6 +39,22 @@ const AllUsers = () => {
           'content-type':'application/json'
         },
         body:JSON.stringify()
+      })
+      .then(res=>res.json())
+      .then(data=>{
+        console.log(data)
+        if(data.modifiedCount){
+          refetch()
+          Swal.fire({
+            title: 'This user is an admin now',
+            showClass: {
+              popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+              popup: 'animate__animated animate__fadeOutUp'
+            }
+          })
+        }
       })
 
     }
