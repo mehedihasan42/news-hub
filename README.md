@@ -25,7 +25,7 @@ The Daily News is a web application that allows administrators to publish news a
 4. Configure environment variables (refer to `.env.local`).
 5. Start the server: `npm run start:server`
 6. Start the client: `npm run start:client`
-7. Access the application at `http://localhost:5000`.
+7. Access the application at `http://localhost:5173`.
 
 
 ### Admin Panel
