@@ -11,6 +11,8 @@ import About from '../Pages/Components/About/About';
 import SaveNews from '../Pages/Components/SaveNews/SaveNews';
 import PrivetRoute from './PrivetRoute';
 import UploadNews from '../Pages/Components/UploadNews/UploadNews';
+import AllUsers from '../Pages/Components/AllUsers/AllUsers';
+import AdminRouter from './AdminRouter';
 
 export const router = createBrowserRouter([
   {
@@ -38,8 +40,12 @@ export const router = createBrowserRouter([
         element:<PrivetRoute><SaveNews></SaveNews></PrivetRoute>
       },
       {
-        path:'uploadNews',
-        element:<UploadNews></UploadNews>
+        path:'/uploadNews',
+        element:<AdminRouter><UploadNews></UploadNews></AdminRouter>
+      },
+      {
+        path:'/allUsers',
+        element:<AdminRouter><AllUsers></AllUsers></AdminRouter>
       },
       {
         path: "/news",

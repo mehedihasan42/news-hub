@@ -1,6 +1,8 @@
 import React, { useContext } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../../AuthProvider/AuthProvider';
+import useAdmin from '../../hooks/useAdmin';
+import useAllUsers from '../../hooks/useAllUsers';
 
 const NavBar = () => {
 
@@ -11,13 +13,15 @@ const NavBar = () => {
       .then(() => { })
   }
 
-  const isAdmin = true;
-
+  const [isAdmin,adminLoader] = useAdmin()
+  console.log(isAdmin)
   const navLinks = <>
+
     {
-      isAdmin ? <>
+      isAdmin?.admin ? <>
         <li><NavLink to={`category/0`}>Home</NavLink></li>
         <li><NavLink to="/about">About Us</NavLink></li>
+        <li><NavLink to="/allUsers">All Users</NavLink></li>
         <li><NavLink to="/uploadNews">Upload News</NavLink></li>
       </> : <>
         <li><NavLink to={`category/0`}>Home</NavLink></li>
@@ -50,6 +54,7 @@ const NavBar = () => {
         {
           user ? <>
             <p>Hi,{user.displayName}</p>
+            {console.log(user.displayName)}
             <Link onClick={handleLogOut} className="btn btn-neutral ml-2">Log Out</Link>
           </> :
             <Link to='/login' className="btn btn-neutral">Log In</Link>
